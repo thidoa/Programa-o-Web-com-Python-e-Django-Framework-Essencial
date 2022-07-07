@@ -22,7 +22,7 @@ def produto(request, pk):
     prod = get_object_or_404(Produto, id=pk)
 
     context = {
-        'produto': prod,
+        'produtos': prod,
     }
     return render(request, 'produto.html', context)
 
