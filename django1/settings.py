@@ -27,7 +27,7 @@ DEBUG = False
 #DEBUG com valor True = modo desenvulvimento
 #DEBUG com valor False = modo produção
 
-ALLOWED_HOSTS = ['*'] 
+ALLOWED_HOSTS = ['django1-tv.herokuapp.com'] 
 
 
 # Application definition
