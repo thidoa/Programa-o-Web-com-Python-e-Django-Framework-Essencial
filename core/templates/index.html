@@ -22,7 +22,7 @@
                 </tr>
                 <tr>
                     {% for produto in produtos %}
-                        <td>{{ produto.nome }}</td>
+                        <td><a href="{% url 'produto' produto.id %}">{{ produto.nome }}</a></td>
                         <td>{{ produto.preco }}</td>
                     {% endfor %}
                 </tr>
